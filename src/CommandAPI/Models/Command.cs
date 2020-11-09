@@ -11,7 +11,7 @@ namespace CommandAPI.Models
         
         [Required]
         [MaxLength(250)]
-        public String HowTo {get; set;}
+        public string HowTo {get; set;}
         
         [Required]
         public string Platform {get; set;}
